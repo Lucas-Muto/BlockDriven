@@ -18,6 +18,7 @@ BlockDriven/
 ```
 
 ## 🗂️ Modelo de Dados
+![image](https://github.com/user-attachments/assets/6edbeae5-2017-49c4-bb25-26c06756d68a)
 
 ### 📊 **Entidades Principais**
 1. **CLIENTE** - Cadastro com múltiplos telefones  
