@@ -20,11 +20,16 @@ BlockDriven/
 ## 🗂️ Modelo de Dados
 
 ### 📊 **Entidades Principais**
-1. **CLIENTE** - Cadastro com múltiplos telefones
-2. **FILME** - Catálogo com categorias e atores
-3. **DISCO** - Cópias físicas individuais
-4. **LOCAÇÃO** - Sistema de aluguel múltiplo
-5. **PESQUISA_SATISFAÇÃO** - Feedback dos clientes
+1. **CLIENTE** - Cadastro com múltiplos telefones  
+2. **TELEFONE_CLIENTE** - Telefones associados aos clientes  
+3. **FILME** - Catálogo com categorias e atores  
+4. **CATEGORIA** - Classificação dos filmes por gênero  
+5. **ATOR** - Informações dos atores que atuam nos filmes  
+6. **FILME_ATOR** - Relacionamento entre filmes e atores  
+7. **DISCO** - Cópias físicas individuais dos filmes  
+8. **LOCAÇÃO** - Sistema de aluguel múltiplo por cliente  
+9. **LOCAÇÃO_DISCO** - Discos incluídos em cada locação  
+10. **PESQUISA_SATISFAÇÃO** - Feedback dos clientes após locação
 
 ### 🔗 **Relacionamentos Implementados**
 1. **Cliente ↔ Locação** (1:N)
